@@ -46,21 +46,15 @@ import { useToast } from '@/components/ui/toast/use-toast'
 const { toast } = useToast();
 // 热榜列表
 const hotlistKey = ref<any[]>([
-  { key: 'chongBluo', name: "虫部落", sub: "最新热门", data: [] },
   { key: 'wbHot', name: "微博", sub: "热搜榜", data: [] },
   { key: 'toutiao', name: "今日头条", sub: "热点", data: [] },
-  { key: 'pengPai', name: "澎湃新闻", sub: "时事", data: [] },
-  { key: 'huPu', name: "虎扑", sub: "步行街热帖", data: [] },
   { key: 'zhihuHot', name: "知乎热榜", sub: "热度", data: [] },
   { key: 'zhihuDay', name: "知乎日报", sub: "", data: [] },
-  { key: '36Ke', name: "36氪", sub: "24小时热榜", data: [] },
   { key: 'bili', name: "哔哩哔哩", sub: "全站日榜", data: [] },
   { key: 'baiduRD', name: "百度热点", sub: "指数", data: [] },
   { key: 'douyinHot', name: "抖音", sub: "热点榜", data: [] },
   { key: 'douban', name: "豆瓣小组", sub: "讨论精选", data: [] },
   { key: 'itNews', name: "IT之家", sub: "最新资讯", data: [] },
-  { key: 'huXiu', name: "虎嗅", sub: "最新资讯", data: [] },
-  { key: 'woShiPm', name: "woShiPm", sub: "热榜", data: [] },
 ])
 
 // 初始化数据请求
