@@ -3,7 +3,7 @@
     <header>
       <div class="main">
         <div class="logo">
-          <img src="https://q1.qlogo.cn/g?b=qq&nk=1655466387&s=640">
+          <img src="https://tc.liyunfei.eu.org/v2/XoLKBfT.png">
           <span>今日热榜</span>
         </div>
       </div>
